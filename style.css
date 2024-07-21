@@ -1,9 +1,130 @@
-body{
-    padding: 30px 0;;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.form{
-    
+body {
+  padding-top: 30px;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form form {
+  background-color: #ffc652;
+  padding: 15px;
+  gap: 2rem;
+}
+.form button {
+  background-color: #003465;
+  min-width: 330px !important;
+}
+.form h2 {
+  color: #003465;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white;
+}
+.card {
+  box-shadow: 5px 5px 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.card img {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.card p {
+  font-size: 0.7rem;
+}
+.card span {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 1px black;
+  color: greenyellow;
+}
+.card h5 {
+  color: gray;
+  font-weight: 800;
+  /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
+}
+.card img:hover {
+  transform: scale(1.15);
+  transition: all 0.8s ease;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.card h4 {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: ghostwhite;
+  text-shadow: 1px 1px 1px red;
+  padding: 10px 25px;
+  backdrop-filter: blur(3px);
+  border-radius: 50px;
+  visibility: hidden;
+}
+.card:hover h4 {
+  visibility: visible;
+}
+.navbar {
+  background-color: transparent !important;
+  backdrop-filter: blur(1px);
+  box-shadow: 0 3px 3px black;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.holiday {
+  display: inline;
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(122, 17, 136);
+  text-shadow: 2px 2px 1px black;
+  letter-spacing: 0.2rem;
+}
+.carousel h5
+ {
+  padding: 5px 25px;
+  backdrop-filter: blur(3px);
+  text-shadow: 1px 1px 1px red;
+}
+.carousel p{
+    padding: 5px 25px;
+    backdrop-filter: blur(3px);
+    text-shadow: 1px 1px 1px red;
+}
+.harita{
+    height: 300px;
+}
+.footer{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding:25px;
+    background-color: rgb(175, 160, 110);
+    margin-top:20px;
+    
+}
+input{
+    background-color: rgb(255, 228, 196) !important;
+   
+}
+select{
+    background-color: rgb(255, 228, 196) !important;
+}
+.container{
+    background-image: url(./assets/img/wallpaperflare.com_wallpaper\ \(18\).jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }

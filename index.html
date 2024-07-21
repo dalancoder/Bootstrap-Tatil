@@ -1,211 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Holiday</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <nav class="navbar fixed-top bg-body-tertiary navbar-expand-lg bg-light ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/img/Harvey.png" width="100px" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Companies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
- 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Honk&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar fixed-top bg-body-tertiary navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/img/image-from-rawpixel-id-6588402-png.png"
+            width="150px"
+            height="70px"
+            alt=""
+          />
+          <p class="holiday">HOLIDAY TOURS</p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Companies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-            </ul>
-            
+    <!-- Carusel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/img/wallpaperflare.com_wallpaper (10).jpg"
+            class="d-block w-100"
+            alt="..."
+            style="max-height: 100vh"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Thailand Phuket</h5>
+            <p>
+              “Her şey kötüye gittiğinde kendine bir tatil ısmarla.” – Betty
+              Williams
+            </p>
           </div>
         </div>
-      </nav>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/wallpaperflare.com_wallpaper (8).jpg"
+            class="d-block w-100"
+            alt="..."
+            style="max-height: 100vh"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-info">Phuket</h5>
+            <p class="text-info">
+              “Öğrenmek istiyorsan seyahat etmelisin.” – Mark Twain
+            </p>
+          </div>
+        </div>
 
-<!-- Carusel -->
-<div id="carouselExampleCaptions" class="carousel slide ">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner  ">
-      <div class="carousel-item active">
-        <img src="./assets/img/wallpaperflare.com_wallpaper (10).jpg" class="d-block w-100" alt="..." style="max-height:100vh" >
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Thailand Phuket</h5>
-          <p>“Her şey kötüye gittiğinde kendine bir tatil ısmarla.” – Betty Williams</p>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/wallpaperflare.com_wallpaper (7).jpg"
+            class="d-block w-100"
+            alt="..."
+            style="max-height: 100vh"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bangkok</h5>
+            <p style="text-shadow: 2px 2px 2px black">
+              “Dünyayı dolaşın. Görebileceğiniz bütün rüyaların en muhteşemi!” –
+              Ray Bradbury
+            </p>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="./assets/img/wallpaperflare.com_wallpaper (8).jpg" class="d-block w-100" alt="..." style="max-height:100vh">
-        <div class="carousel-caption d-none d-md-block ">
-          <h5 class="text-info">Phuket</h5>
-          <p class="text-info">“Öğrenmek istiyorsan seyahat etmelisin.” – Mark Twain</p>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Card  -->
+    <div class="container">
+      <div class="row justify-content-center gap-5 mt-5 mb-5">
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/wallpaperflare.com_wallpaper (28).jpg "
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Çin Turu</h5>
+              <h4 class="vize">Vizesiz</h4>
+              <p class="card-text">
+                Türk Havayolları İle
+
+                <span>2.199,00 EUR</span> <br />
+
+                Kişi başı fiyat 79.142,01 TL
+              </p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
         </div>
-      </div>
-      
-      <div class="carousel-item">
-        <img src="./assets/img/wallpaperflare.com_wallpaper (7).jpg" class="d-block w-100" alt="..." style="max-height:100vh">
-        <div class="carousel-caption d-none d-md-block ">
-          <h5>Bangkok</h5>
-          <p style="text-shadow: 2px 2px 2px  black">“Dünyayı dolaşın. Görebileceğiniz bütün rüyaların en muhteşemi!” – Ray Bradbury</p>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/wallpaperflare.com_wallpaper (9).jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Puckhet Turu</h5>
+              <h4 class="vize">Vizesiz</h4>
+              <p class="card-text">
+                Mahan Havayolları İle
+                <span>1.119,00 EUR</span>
+                <br />
+                Kişi başı fiyat 40.272,81 TL
+              </p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/wallpaperflare.com_wallpaper (2).jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bali Turu</h5>
+              <h4 class="vize">Vizesiz</h4>
+              <p class="card-text">
+                Türk Havayolları İle
+
+                <span>1.846,20 USD</span>
+                <br />
+                Kişi başı fiyat 61.035,37 TL
+              </p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/wallpaperflare.com_wallpaper (13).jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Moğolistan Turu</h5>
+              <h4 class="vize">Vizesiz</h4>
+              <p class="card-text">
+                Singapur Havayolları İle
+                <span>1.499,00 USD</span>
+                <br />
+                Kişi başı fiyat 49.556,94 TL
+              </p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/wallpaperflare.com_wallpaper (14).jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kilimanjaro Turu</h5>
+              <h4 class="vize">Vizesiz</h4>
+              <p class="card-text">
+                Mahan Havayolları İle
+                <span>1.049,00 EUR</span>
+                <br />
+                Kişi başı fiyat 37.753,51 TL
+              </p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/wallpaperflare.com_wallpaper (27).jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sri Lanka Turu</h5>
+              <h4 class="vize">Vizesiz</h4>
+              <p class="card-text">
+                Salam Havayolları İle
+                <span> 1.349,00 USD </span>
+                <br />
+                Kişi başı fiyat 44.597,94 TL
+              </p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
-  <!-- Card  -->
-  <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-6 col-xl-4">
-            <div class="card">
-                <img src="./assets/img/wallpaperflare.com_wallpaper (28).jpg " class="card-img-top" alt="..." style="height: 270px">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-4">
-            <div class="card">
-                <img src="./assets/img/wallpaperflare.com_wallpaper (9).jpg" class="card-img-top" alt="..." style="height: 270px">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-4">
-            <div class="card">
-                <img src="./assets/img/wallpaperflare.com_wallpaper (2).jpg" class="card-img-top" alt="..." style="height: 270px">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-4">
-            <div class="card">
-                <img src="./assets/img/wallpaperflare.com_wallpaper (13).jpg" class="card-img-top" alt="..." style="height: 270px">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-4">
-            <div class="card">
-                <img src="./assets/img/wallpaperflare.com_wallpaper (14).jpg" class="card-img-top" alt="..." style="height: 270px">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-4">
-            <div class="card">
-                <img src="./assets/img/wallpaperflare.com_wallpaper (27).jpg" class="card-img-top" alt="..." style="height: 270px">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-    </div>
-  </div>
-
-  <!-- Form -->
-<div class="form">
-    <form class="row justify-content-center col-6  border border-primary ">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
+    <!-- Form -->
+    <div class="form">
+      <div class="harita row col-12 col-md-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192697.8885074759!2d28.847377615230496!3d41.00546324226519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1721518904460!5m2!1str!2str"
+          width="600"
+          height="573"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class=""
+        ></iframe>
+      </div>
+      <form
+        class="row col-12 justify-content-center col-md-6 border border-primary"
+      >
+        <h2><i class="fa-solid fa-magnifying-glass"></i>Tur Ara</h2>
+        <div class="col-md-8">
+          <label for="inputState" class="form-label">Tur Kategorisi</label>
           <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
+            <option selected>Yurt Dışı Turları</option>
+            <option selected>Kültür Turları</option>
+            <option selected>Gemi/Cruise</option>
+            <option selected>Etkinlik/Event</option>
+            <option>Hepsi</option>
           </select>
         </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
+
+        <div class="col-md-8">
+          <label for="inputState" class="form-label">Tur Alt Kategorisi</label>
+          <select id="inputState" class="form-select">
+            <option selected>Tüm Etkinlik/Event</option>
+            <option selected>Cosmos</option>
+          </select>
         </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div>
+        <div class="col-md-8">
+          <label for="inputAddress2" class="form-label"
+            >Ziyaret Edilecek Yer / Tema</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Örn.Fransa, Nepal, vizesiz,balayı"
+          />
         </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Tur Başlangıç Tarihi</label>
+          <input type="date" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Kişi Sayısı </label>
+          <input type="number" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary w-25">Güncelle</button>
         </div>
       </form>
 
-      
-</div>
-  
+      <div class="footer">
+        <p><i class="fa-solid fa-phone"></i>    +90 212 555 55 55</p>
+        <p><i class="fa-solid fa-envelope"></i>    info@mustafadalan.com.tr</p>
+        <p><i class="fa-solid fa-location-dot"></i>    Cumhuriyet Mah. Hurriyet sok. İstanbul Turkey</p>
+      </div>
+    </div>
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
