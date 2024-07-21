@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  padding-top: 30px;
+  padding-top: 0px;
 }
 .form {
   display: flex;
@@ -104,7 +104,7 @@ body {
 .harita{
     height: 300px;
 }
-.footer{
+#footer{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -127,4 +127,32 @@ select{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+ul{
+    gap:10px;
+    text-align: center;
+}
+li{
+    width: 130px;
+    background-color:rgba(136, 135, 150, 0.644);
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white !important;
+    font-size: 1rem !important;
+    font-weight: 700;
+    
+}
+li:hover{
+    background-color: greenyellow;
+    transition: all 1s ease;
+    
+    
+}
+li:hover a{
+color: black !important;
+transition: all 1s ease;
+}
+li a{
+    color: white !important;
+    font-size: 1rem;
 }
